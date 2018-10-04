@@ -134,4 +134,7 @@ print('Probabilitas')
 print('Setosa: ', setosa_A,'|| Versicolor:  ', versicolor_A, '|| Virginica : ', vir_A)
 print('----------------------------------------------')
 
-print(maks[1])
+if (maks[0] == 0.0) :
+    print('Inputan Tidak Merepresentasikan data')
+else:
+    print(maks[1])
