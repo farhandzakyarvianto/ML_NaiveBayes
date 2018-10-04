@@ -135,6 +135,6 @@ print('Setosa: ', setosa_A,'|| Versicolor:  ', versicolor_A, '|| Virginica : ', 
 print('----------------------------------------------')
 
 if (maks[0] == 0.0) :
-    print('Inputan Tidak Merepresentasikan data')
+    print('Tidak Terklasifikasi')
 else:
     print(maks[1])
